@@ -14,8 +14,9 @@ let topBar = document.getElementById("top");
 let toggleBtn = document.getElementById("toggleBtn");
 let att = document.getElementById("attribution");
 //updating user's selected theme
+let theme;
 function userTheme() {
-  let theme = window.localStorage.getItem("userTheme");
+   theme = window.localStorage.getItem("userTheme");
   if (theme == "darkBlueTheme") {
     darkBlueTheme();
   } else if (theme == "lightGreyTheme") {
