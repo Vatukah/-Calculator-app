@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   font-family: "League Spartan", sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
 }
 body {
   background: hsl(222, 26%, 31%);
